@@ -1,0 +1,177 @@
+<!DOCTYPE HTML5>
+<!-- Html stands for Hyper Text Markup Language
+	Html is used to add data into a web page
+	Html tells the browser to display the content of the web -->
+
+<!-- CSS stands for Cascading Style Sheet
+	 After adding content by using Html we use Css to make the 
+	 content attractive -->
+
+<!--JS stands for JavaScript
+	By using JS we can add functionalities to the webpage-->
+
+<HTML> <!--tag -->
+	<HEAD>
+		<TITLE> SECIM PALUT </TITLE>
+		<!--Internal CSS -->
+		<!--Id should be unique but if you use repeatedly, it works -->
+		<style type="text/css">
+			h1, h3, h6{
+				color:blue;
+				font-size: 80px;
+				font-family:arial;
+				background-color: lightblue;
+				text-shadow:5px 2px red;
+				text-align: center;
+				text-decoration: underline;
+				text-transform: uppercase;
+			}
+
+			h2, h4, h5 {
+				color:red;
+				font-size: 100;
+				font-family:Comic Sans MS;
+				background-color: pink;
+				text-shadow:5px 2px lime;
+				padding-left: 100px;
+				text-transform: capitalize;
+			}
+
+			#p1 {
+				font-size: 40;
+				color:green;
+			}
+
+			.cp {
+				font-size: 50px;
+				color: red;
+			}
+
+			#waterImg1 {
+				width: 100%;
+				border-style: solid;
+				border-width: 30;
+				border-color: green;
+				border-radius: 500px;
+			}
+
+			#textGooglelink{
+				font-size: 30;
+				font-family: cursive;
+				display: block;
+				text-align: center;
+				color: red;
+
+			}
+
+			#googleimg {
+				width: 100;
+				display: block;
+				text-align: center;
+			}
+
+			Body {
+				background-image: url('https://images.unsplash.com/photo-1541119638723-c51cbe2262aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			TABLE, TD, TH {
+				font-size: 60;
+				border: 6px solid red;
+			}
+
+			TH {
+				background-color: yellow;
+				border: 6px solid blue;
+			}
+
+			TD {
+				background-color: pink;
+				border: 6px solid lime;
+			}
+		</style>
+
+	</HEAD>
+
+	<BODY>
+		<h1> Adding Paragraph with class attribute and horizental Line </h1>
+
+			<hr><hr><hr>
+			<p id="p1">
+				<B>Html</B> is markup language. <br>
+				<I>Html</I> is used to add content into a webpage.<br>
+				<U>Css</U> is used to style content.<br>
+				<B><I><U>JS</U></I></B> adds funcionality into a webpage
+			</p>
+
+		<h2> Adding Paragraph with class attribute</h2>
+
+		<p class="cp">
+			I liked Java.<br>
+			HTML and CSS are easier than JAVA.<br>
+			But JAVA will bring you more money than HTML and CSS<br>
+		</p>
+
+		<h3> Adding Paragraph with class attribute</h3>
+		<p class="cp">
+			To be web developer you should learn at least HTML, CSS and JS <br>
+			If you learn Angular, React, Bootstrap it will be perfect
+		</p>
+
+		<h4> Ordered List </h4>
+		<!--1,A,a,I,i -->
+			<OL class="cp" type="I" style="padding-left:200px;">
+				<li>Fish</li>
+				<li>Salad</li>
+				<li>Soup</li>
+				<li>Drinks</li>
+			</OL>
+		<h5> Unordered List </h5>
+		<!--disc cricle square none -->
+			<ul class="cp" type="none">
+				<li>Math</li>
+				<li>Science</li>
+				<li>Art</li>
+				<li>History</li>
+				<li>Music</li>
+				<li></li>
+			</ul>
+		<h5> Description List </h5>
+			<dl>
+				<dt>Soup</dt>
+					<dd>-It is vegan soup</dd>
+					<dd>-It is not contain onion</dd>
+				<dt>Soup</dt>
+					<dd>It is Halal</dd>
+				<dt>Soup</dt>
+					<dd>It is Kosher</dd>
+			</dl>
+
+		<h6> Adding Images </h6>
+			<img src="https://thumbs.dreamstime.com/b/falling-drop-rain-blue-earth-image-water-splash-crown-shape-water-splash-crown-shape-falling-drop-earth-140453719.jpg" id="WaterImg1" alt="Water image with the world">
+
+		<h6> Text and Image Links</h6>
+			<a href="https://www.google.com/" id="textGooglelink" target="_blank">To Go GOOGLE</a>
+
+			<a href="https://www.google.com/" target="_blank"><img src="https://openthread.google.cn/images/ot-contrib-google.png" id="googleimg" ></a>
+
+		<h6>Background image and Color</h6>
+
+		<h6>Adding Tables </h6>
+		<TABLE>
+			<tr>
+				<th>Name</th><th>Id</th><th>Salary</th>
+			</tr>
+			<tr>
+				<td>Ali</td><td>101</td><td>1000</td>
+			</tr>
+			<tr>
+				<td>Veli</td><td>102</td><td>2000</td>
+			</tr>
+
+
+		</TABLE>
+	</BODY>
+
+</HTML>

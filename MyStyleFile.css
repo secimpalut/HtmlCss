@@ -1,0 +1,90 @@
+
+			h1, h3, h6{
+				color:blue;
+				font-size: 80px;
+				font-family:arial;
+				background-color: lightblue;
+				text-shadow:5px 2px red;
+				text-align: center;
+				text-decoration: underline;
+				text-transform: uppercase;
+			}
+
+			h2, h4, h5 {
+				color:red;
+				font-size: 100;
+				font-family:Comic Sans MS;
+				background-color: pink;
+				text-shadow:5px 2px lime;
+				padding-left: 100px;
+				text-transform: capitalize;
+			}
+
+			#p1 {
+				font-size: 40;
+				color:green;
+			}
+
+			.cp {
+				font-size: 50px;
+				color: red;
+			}
+
+			#waterImg1 {
+				width: 100%;
+				border-style: solid;
+				border-width: 30;
+				border-color: green;
+				border-radius: 500px;
+			}
+
+			#textGooglelink{
+				font-size: 30;
+				font-family: cursive;
+				display: block;
+				text-align: center;
+				color: red;
+
+			}
+
+			#googleimg {
+				width: 100;
+				display: block;
+				text-align: center;
+			}
+
+			Body {
+				background-image: url('https://images.unsplash.com/photo-1541119638723-c51cbe2262aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			TABLE, TD, TH {
+				font-size: 60;
+				border: 6px solid red;
+			}
+
+			TH {
+				background-color: yellow;
+				border: 6px solid blue;
+			}
+
+			TD {
+				background-color: pink;
+				border: 6px solid lime;
+			}
+
+			#if1 {
+				width="400"; 
+				height="400px";
+				border-style: solid;
+				border-color: blue;
+				border-width: 15px;
+
+			}
+
+			.textboxname {
+				width: 300px;
+				height: 60px;
+			}
+		
